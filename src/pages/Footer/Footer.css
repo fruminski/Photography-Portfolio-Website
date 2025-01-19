@@ -1,0 +1,137 @@
+.footer{
+    display: flex;
+    height: 13vh;
+  
+    letter-spacing: 5px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 100px;
+    font-family: "inter", sans-serif;
+   
+    
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+  
+}
+
+.social {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100px;
+    
+}
+
+div.social img {
+    transition: 0.3s;
+}
+
+div.social img:hover {
+    transform: scale(1.2);
+}
+
+p {
+    line-height: 20px;
+    font-size: clamp(0.7rem, 1vw, 0.9rem);
+    letter-spacing: 7px;
+    
+}
+
+.footer div {
+    width: 33.33%;
+
+}
+
+.mail {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+    font-size: clamp(0.7rem, 1vw, 0.9rem);
+}
+
+
+.mail:hover {
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width: 820px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        width: 100%;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer div {
+        width: 100%;
+
+    }
+
+    .mail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        transition: 0.5s;
+        font-size: clamp(0.7rem, 1vw, 0.9rem);
+    }
+
+    .social {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 412px) {
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        width: 100%;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .footer div {
+        width: 100%;
+
+    }
+
+    .mail {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        transition: 0.5s;
+        font-size: clamp(0.7rem, 1vw, 0.9rem);
+    }
+
+    .social {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+    }
+
+    .footer p {
+        letter-spacing: 5px;
+    }
+}

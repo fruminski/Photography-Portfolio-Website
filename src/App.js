@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React from "react";
+import ReactGA from "react-ga4";
+import { Helmet } from "react-helmet";
+import Nav from "./pages/Nav/Nav";
+import Main2 from "./pages/Main/Main2";
+import Footer from "./pages/Footer/Footer";
+import Hero from "./pages/Hero/Hero";
 
 function App() {
+  ReactGA.initialize("G-W09DBNGFVG");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="home">
+      <div>
+        <Helmet>
+          <title>Ewelina Kucharska Ruminska</title>
+          <meta
+            name="description"
+            content="Ewelina Kucharska Ruminska, London based freelance portrait & fashion photographer."
+          />
+        </Helmet>
+      </div>
+      <Nav />
+      <Hero />
+      <Main2 />
+      <Footer />
     </div>
   );
 }
