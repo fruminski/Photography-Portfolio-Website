@@ -1,71 +1,90 @@
-# Getting Started with Create React App
+# Photography Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Minimalist photography portfolio website built with **React.js**, designed to showcase the work of photographer [Ewelina Rumińska](https://ewelinaruminska.com). The site is focused on clean design, smooth navigation, and a fully responsive layout for all devices.
 
-## Available Scripts
+It features a gallery-style layout powered by `react-photo-gallery`, putting the visual work front and center with no distractions. The project is client-side only and was bootstrapped using Create React App.
 
-In the project directory, you can run:
+## 🌟 Features
 
-### `npm start`
+- Clean, image-focused layout
+- Responsive design across all screen sizes
+- Simple and maintainable component structure
+- Powered by `react-photo-gallery`
+- Easy to customize and deploy
+- Live at: [ewelinaruminska.com](https://ewelinaruminska.com)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Getting Started
 
-### `npm test`
+To run the project locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Clone the repository
 
-### `npm run build`
+```bash
+git clone https://github.com/fruminski/Photography-Portfolio-Website.git
+cd Ewi2024
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. Install dependencies
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This includes:
+- [`react-photo-gallery`](https://www.npmjs.com/package/react-photo-gallery)
 
-### `npm run eject`
+### 3. Start the development server
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The app will run in development mode at [http://localhost:3000](http://localhost:3000).  
+It will reload automatically as you make changes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🛠️ Tech Stack
 
-## Learn More
+- **React.js** (Create React App)
+- **react-photo-gallery** – for dynamic photo grid layouts
+- **HTML5 + CSS3**
+- **JavaScript (ES6+)**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📁 Project Structure
 
-### Code Splitting
+```
+Ewi2024/
+├── public/
+├── src/
+│   ├── components/
+│   ├── data/
+│   └── App.js
+├── package.json
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🖼️ Customization Tips
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Replace images and update metadata in `src/data` or components
+- Modify layout or styling via the components and CSS
+- Add more features (e.g., lightbox, contact form) depending on your needs
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🙌 Contributing
 
-### Advanced Configuration
+Pull requests and suggestions are welcome!  
+If you spot a bug or want to add a feature, feel free to open an issue or submit a PR.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Ewi2024
+This project is open-source and available under the [MIT License](LICENSE).
